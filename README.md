@@ -16,4 +16,5 @@ You may need to install 2 more libraries
 	* Requests - API handler
 	* Pillow - The python imaging library
 
-
+## Python Documentation
+https://www.tutorialspoint.com/python
