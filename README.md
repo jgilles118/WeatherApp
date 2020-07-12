@@ -7,7 +7,6 @@ By: James Gilles
 Test from terminal by typing: **python -m tkinter**\
 A simple window should appear. If you receive a "Tk not configured" error, Tk may need to be installed.
 Although I am using Manjaro, here is a list of commands used to install Tkinter for other distros.\
-
 **pacman**: sudo pacman -S tk\
 **apt**: sudo apt install python3-tk\
 **dnf**: dnf install python3-tkinter\
