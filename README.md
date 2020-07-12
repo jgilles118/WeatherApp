@@ -14,9 +14,9 @@ Although I am using Manjaro, here is a list of commands used to install Tkinter 
 
 ---
 You may need to install 2 more libraries: \
-2) First install PIP by typing **sudo pacman -S python-pip** \
-	* Requests - API handler\
-	* Pillow - The python imaging library\
+2) First install PIP by typing **sudo pacman -S python-pip**\
+* Requests - API handler\
+* Pillow - The python imaging library\
 3) Run the command in terminal\
 **pip install reqeusts**\
 **sudo pacman -S python-imaging**\
