@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 import tkinter as tk
+from PIL import ImageTk,Image
 import requests
 
 #Assigning Tk() function to window
@@ -31,13 +32,14 @@ def search_weather(city):
 window.title("Weather App")
 
 #The widget size
-winsize = tk.Canvas(window, height=700, width=800)
+winsize = tk.Canvas(window, height=400, width=300)
 winsize.pack()
-'''
-bg_image = tk.PhotoImage(file='LandScape2.png')
+
+#Inserting the image
+bg_image = ImageTk.PhotoImage(Image.open('LandScape2.png'))
 bg_label = tk.Label(window, image=bg_image)
 bg_label.place(relheight=1,relwidth=1)
-'''
+
 #Frames and  colors
 frame1 = tk.Frame(window, bg='#80c1ff', bd=6)
 frame1.place(relx=0.5, rely=0.1,relheight=0.1, relwidth=0.75, anchor='n')
