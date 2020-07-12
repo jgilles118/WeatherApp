@@ -15,12 +15,12 @@ Although I am using Manjaro, here is a list of commands used to install Tkinter 
 ---
 You may need to install 2 more libraries: \
 2) First install PIP by typing **sudo pacman -S python-pip**\
-* Requests - API handler\
-* Pillow - The python imaging library\
+* Requests - API handler
+* Pillow - The python imaging library
 3) Run the command in terminal\
 **pip install reqeusts**\
-**sudo pacman -S python-imaging**\
-4) Sign-up to: https://openweathermap.org/api it's FREE!!\
+**sudo pacman -S python-imaging**
+4) Sign-up to: https://openweathermap.org/api it's FREE!!
 	* Copy the FREE api key and continue.
 
 ## Python Documentation and instructional video
