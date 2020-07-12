@@ -14,7 +14,8 @@ A simple window should appear. If you receive a "Tk not configured" error, Tk ma
 **dnf**: dnf install python3-tkinter
 
 **yum**: yum install tkinter tk-devel
-	
+
+---
 You may need to install 2 more libraries: 
 1) First install PIP by typing **sudo pacman -S python-pip** 
 	* Requests - API handler
