@@ -20,7 +20,7 @@ You may need to install 2 more libraries:
 1) First install PIP by typing **sudo pacman -S python-pip** 
 	* Requests - API handler
 	* Pillow - The python imaging library
-2) Run the command: pip install reqeusts Pillow
+2) Run the command in terminal: **pip install reqeusts Pillow
 3) Sign-up to: OpenWeatherMap.org it's FREE!!
 	* Copy the FREE api key and continue.
 
