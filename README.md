@@ -26,5 +26,5 @@ You may need to install 2 more libraries: \
 ## Python Documentation and instructional video
 More help with Tkinter and Python can be found at the link below\
 https://www.tutorialspoint.com/python \
-For an instructional video\
+For the instructional video that was followed for this project\
 https://www.youtube.com/watch?v=D8-snVfekto
