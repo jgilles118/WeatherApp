@@ -17,7 +17,7 @@ def search_weather(city):
         response = requests.get(url, params=parameter)
         results = response.json()
         name = 'City: ' + results['name']
-        skys = 'Skys: ' + results['weather'][0]['description']
+        skys = 'Skies: ' + results['weather'][0]['description']
         temp = 'Currently: ' + str(results['main']['temp'])
         accTemp = 'Feels like: ' + str(results['main']['feels_like'])
         humd = 'Humidity: ' + str(results['main']['humidity'])
