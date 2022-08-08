@@ -11,7 +11,7 @@ window = tk.Tk()
 # api.openweathermap.org/data/2.5/forecast?q={city name},{state code},{country code}&appid={your api key}
 def search_weather(city):
     try:
-        weather_key = '412242770eab22d4cc2baf26ff3436d6'
+        weather_key = 'api-key'
         url = 'https://api.openweathermap.org/data/2.5/weather'
         parameter = {'APPID':weather_key, 'q':city, 'units':'imperial'}
         response = requests.get(url, params=parameter)
